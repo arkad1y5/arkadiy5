@@ -215,7 +215,7 @@ img{
 .home__social-icon{
   width: max-content;
   margin-bottom: var(--mb-2);
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: var(--second-color);
 }
 .home__social-icon:hover{
@@ -380,6 +380,13 @@ img{
     padding-top: 4rem;
     padding-bottom: 3rem;
   }
+
+  .sectionTwo{
+    padding-top: 3.4rem;
+    padding-bottom: 3rem;
+  }
+
+
   .section-title{
     margin-bottom: var(--mb-6);
   }
