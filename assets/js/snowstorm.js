@@ -649,11 +649,11 @@ var snowStorm = (function(window, document) {
   }
 
   function doStart() {
-    if (!storm.excludeMobile || !isMobile) {
+    if (storm.excludeMobile || isMobile) {
       doDelayedStart();
     }
     // event cleanup
-    //storm.events.remove(window, 'load', doStart);
+    storm.events.remove(window, 'load', doStart);
   }
 
   // hooks for starting the snow
