@@ -635,7 +635,7 @@ var snowStorm = (function(window, document) {
     }
     fixedForEverything = storm.usePositionFixed;
     if (screenX && screenY && !storm.disabled) {
-      storm.init();
+      storm.init(); //сніг на мобільних пристроях
       storm.active = true;
     }
   };
@@ -649,7 +649,7 @@ var snowStorm = (function(window, document) {
   }
 
   function doStart() {
-    if (storm.excludeMobile || isMobile) {
+    if (!storm.excludeMobile || !isMobile) {
       doDelayedStart();
     }
     // event cleanup
