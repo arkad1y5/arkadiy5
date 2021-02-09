@@ -653,7 +653,7 @@ var snowStorm = (function(window, document) {
       doDelayedStart();
     }
     // event cleanup
-    storm.events.remove(window, 'load', doStart);
+    //storm.events.remove(window, 'load', doStart);
   }
 
   // hooks for starting the snow
