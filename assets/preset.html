@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/stylesOne.css">
+	<link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+
+	<link href="css/foundation.css" rel="stylesheet" type="text/css" />
+  	<link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+	<title>Arkadiy Preset   build-1.2.21</title>
+
+</head>
+<body>
+	<!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="../index.html" class="nav__logo">Arkadiy</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="../index.html" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="../index.html" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="gallery.html" class="nav__link">Gallery</a></li>
+                        <li class="nav__item"><a href="preset.html" class="nav__link">Preset</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+
+        <section class="work sectionTwo" id="work">
+                <h2 class="section-title">PRESET</h2>
+
+                <div class="twentytwenty-container work__container bd-grid">
+                	<div class="work__img">
+			           <img src="img/work9.jpg" />
+			           <img src="img/work8.jpg" />
+		           </div>
+       			</div>
+
+
+
+
+               <!--- <div class="work__container bd-grid">
+                	<div class="work__img">
+                        <img src="img/work9.jpg" alt="">
+                    </div>
+                	<div class="work__img">
+                        <img src="img/work8.jpg" alt="">
+                    </div>
+                	<div class="work__img">
+                        <img src="img/work7.jpg" alt="">
+                    </div>
+                </div>--->
+
+
+
+
+
+
+
+
+
+
+                        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="js/main.js"></script>
+        <script src="js/jquery.event.move.js"></script>
+    	<script src="js/jquery.twentytwenty.js"></script>
+    	<script>
+   			$(function(){
+     		$(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+     		$(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    		});
+    	</script>
+</body>
+</html>
