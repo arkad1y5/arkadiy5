@@ -556,3 +556,157 @@ img{
         transform: rotate(360deg);
     }
 }
+
+
+
+
+
+/*Login form*/
+
+.bg_img{
+  width: 1600px;
+  height: 720px;
+}
+
+.user_img{
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+
+.forgot_link{
+  display: block;
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #bababa;
+  font-weight: 700;
+  text-decoration: none;
+  transition: .2s;
+}
+
+.forgot_link:hover {
+  color: var(--second-color);
+}
+
+.form-box{
+  width: 450px;
+  height: 600px;
+  padding: 50px;
+  padding-top: 70px;
+  padding-bottom: 90px;
+  position: absolute;
+  box-shadow: -15px 53px 68px -9px rgba(0,0,0,0.75);
+  border-top-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+  top: 52%;
+  left: 60%;
+  transform: translateY(-50%);
+  background: #fff;
+  text-align: center;
+}
+
+.form-box h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.form-box input[type = "text"], .form-box input[type = "password"] {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid #28ac00;
+  padding: 14px 15px;
+  width: 200px;
+  outline: none;
+  transition: 0.25;
+}
+
+.form-box input[type = "text"]:focus, .form-box input[type = "password"]:focus {
+  width: 250;
+  border-color: var(--second-color);
+}
+
+.form-box input[type = "sumbit"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid var(--second-color);
+  width: 230px;
+  height: 30px;
+  outline: none;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.form-box input[type = "sumbit"]:hover {
+  background: var(--second-color);
+  color: #fff;
+
+}
+
+@media only screen and (max-width: 1350px){
+  .bg_img{
+    width: 1350px;
+  }
+
+  .form-box{
+    top: 59%;
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1025px){
+  .bg_img{
+    width: 1025px;
+    height: 650px;
+  }
+  .form-box{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .form-box{
+    width: 340px;
+    height: 500px;
+    padding-top: 30px;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+  }
+
+  .user_img{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+}
+
+
+@media only screen and (max-width: 290px){
+  .form-box{
+    width: 270px;
+    height: 450px;
+    padding-top: 30px;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+  }
+  .form-box input[type = "sumbit"]{
+    margin: 20px auto;
+    width: 200px;
+    height: 30px;
+  }
+  .user_img{
+    width: 110px;
+    height: 110px;
+  }
+}
