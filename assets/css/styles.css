@@ -177,6 +177,8 @@ img{
   cursor: pointer;
 }
 
+
+
 /*Active menu*/
 .active::after{
   position: absolute;
@@ -563,9 +565,21 @@ img{
 
 /*Login form*/
 
+
+
+
+.form-cointainer{
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(183,75,210,1) 100%, rgba(252,70,107,1) 100%); 
+  height: 740px;
+
+}
+
 .bg_img{
-  width: 1600px;
-  height: 720px;
+  width: 500px;
+  padding-top: 170px;
+  margin-top: 50px;
+  margin-left: 20%;
+
 }
 
 .user_img{
@@ -655,19 +669,19 @@ img{
 
 @media only screen and (max-width: 1350px){
   .bg_img{
-    width: 1350px;
+    width: 500px;
+    margin-left: 10%;
   }
 
   .form-box{
-    top: 59%;
+    top: 55%;
     width: 400px;
   }
 }
 
 @media only screen and (max-width: 1025px){
   .bg_img{
-    width: 1025px;
-    height: 650px;
+    opacity: 0;
   }
   .form-box{
     top: 50%;
