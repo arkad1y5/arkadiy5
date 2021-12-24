@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no"> <!---щоб не можна було збільшувати сторінку на телефоні--->
 
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/menu.css"> <!---стилі меню--->
         <!--<script src="assets/js/snowstorm.js"></script>-->
 
 
@@ -34,6 +35,57 @@
                   <div id="loader"></div>
                 </div>
             </div>
+        </div>
+
+
+        <div class="mob__menu">
+            <div class="menu_navigation">
+            <div class="navigation">
+                <ul>
+                    <li class="list active_menu">
+                        <a href="#home">
+                            <span class="icon">
+                                <ion-icon name="home-outline"></ion-icon>
+                            </span>
+                            <span class="text">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#about">
+                            <span class="icon">
+                                <ion-icon name="person-outline"></ion-icon>
+                            </span>
+                            <span class="text">About</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#">
+                            <span class="icon">
+                                <ion-icon name="call-outline"></ion-icon>
+                            </span>
+                            <span class="text">Feedback</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#skills">
+                            <span class="icon">
+                                <ion-icon name="bar-chart-outline"></ion-icon>
+                            </span>
+                            <span class="text">Skills</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#work">
+                            <span class="icon">
+                                <ion-icon name="image-outline"></ion-icon>
+                            </span>
+                            <span class="text">Work</span>
+                        </a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </div>
         </div>
 
 
@@ -225,6 +277,11 @@
 
         <!--===== MAIN JS =====-->
         <script src="assets/js/main.js"></script>
+
+        <!--===== Menu =====-->
+        <script type="text/javascript" src="assets/js/menu.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
     </body>
 </html>
