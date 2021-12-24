@@ -141,3 +141,42 @@
 .navigation ul li:nth-child(5).active_menu ~ .indicator{
     transform: translateX(calc(70px * 4));
 }
+
+
+
+
+
+@media only screen and (max-width: 400px){
+    .navigation ul{
+        width: 300px;
+    }
+    .navigation ul li:nth-child(1).active_menu ~ .indicator{
+    transform: translateX(calc(60px * 0));
+    }
+    .navigation ul li:nth-child(2).active_menu ~ .indicator{
+        transform: translateX(calc(60px * 1));
+    }
+    .navigation ul li:nth-child(3).active_menu ~ .indicator{
+        transform: translateX(calc(60px * 2));
+    }
+    .navigation ul li:nth-child(4).active_menu ~ .indicator{
+        transform: translateX(calc(60px * 3));
+    }
+    .navigation ul li:nth-child(5).active_menu ~ .indicator{
+        transform: translateX(calc(60px * 4));
+    }
+
+    .navigation{
+        width: 350px;
+        height: 60px;
+    }
+
+    .indicator{
+        width: 60px;
+        height: 60px;
+    }
+    .navigation ul li {
+        width: 60px;
+        height: 60px;
+    }
+}
