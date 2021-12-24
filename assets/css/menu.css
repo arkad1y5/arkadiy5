@@ -143,6 +143,11 @@
 }
 
 
+@media screen and (min-width: 768px){
+    .mob__menu{
+        opacity: 0;
+    }
+}
 
 
 
